@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Jirjis R.A - Software Engineer</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="Images/icon.png">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="main-container">
+        <div class="nav animate__animated animate__fadeIn">
+          <!-- <div class="logo">
+            <a href="/ ">JIS</a>
+          </div> -->
+          <nav>
+            <ul>
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <!-- <li>
+                <a href="#about" onclick="opentab('hobby')">Hobby</a>
+              </li>
+              <li>
+                <a href="#about" onclick="opentab('skills') ">Skills</a>
+              </li> -->
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+              <!-- <li>
+                            <a href="#/Resume.pdf" target="_blank">
+                                <button class="btn">
+                                      CV
+                                </button>
+                            </a>
+                        </li> -->
+            </ul>
+          </nav>
+
+          <div class="burger">
+            <div class="lines1"></div>
+            <div class="lines2"></div>
+            <div class="lines3"></div>
+          </div>
+
+        </div>
+
+        <section id="hero">
+          <div class="hero-left animate__animated animate__bounceInLeft">
+            <h3 class="pre-title">My Name Is</h3>
+            <h1 class="hero-name">Jirjis <span> R.A </span></h1>
+            <!-- <p>
+                        heufheihfiefcieo fh iowefh weoifh weifh ewohfewiofhewifhiew ewihfwei hweih fweiofh wei dawawd d awda heufheihfiefcieo fh iowefh weoifh weifh ewohfewiofhewifhiew ewihfwei hweih fweiofh wei dawawd d awdaheufheihfiefcieo fh iowefh weoifh weifh ewohfewiofhewifhiew ewihfwei hweih fweiofh wei dawawd d awda
+            </p> -->
+            <!-- <button class="qqq" onclick="window.open('')">Download CV</button> -->
+            <a href="CV.pdf" target="_blank">
+
+              <button class="qqq">Download CV</button>
+            </a>
+            <button class="sss" onclick="location.href='#contact'">
+              Contact Me
+            </button>
+          </div>
+
+          <div class="hero-right animate__animated animate__bounceInRight">
+            <img src="./Images/hero.svg" alt="" />
+          </div>
+        </section>
+        <section></section>
+      </div>
+    </header>
+    <!-- animate__zoomInDown -->
+    <!-- End of Header -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="about main-container">
+        <h3 class="pre-title">Introduction</h3>
+        <!-- <h1 class="section-title about-title">Introduction</h1> -->
+
+        <div class="" id="bout">
+          <div class="container">
+            <div class="row">
+              <div class="about-col-1">
+                
+                <div data-aos="zoom-in">
+                  <div data-aos="zoom-out">
+                    <img src="Images/about.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>
+                    I am Jirjis Rojul Atiq, hailing from Pasuruan, East Java. Presently, I am employed as a Web Developer. Additionally, I am pursuing my undergraduate studies at the University of Muhammadiyah Malang, specializing in computer engineering.
+                </p>
+
+                <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills') ">
+                    Skills
+                  </p>
+                  <p class="tab-links" onclick="opentab('hobby')">Hobby</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li><span>HTML & CSS</span></li>
+                    <li><span>JavaScript</span></li>
+                    <li><span>React</span></li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="hobby">
+                  <ul>
+                    <li><span>Gaming</span></li>
+                    <li><span>Rest and Relaxation</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Of About -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="contact main-container">
+        <div class="contact-left">
+          <form class="contact-form" action="https://formspree.io/f/xvojwykz" method="POST">
+            <div>
+              <input type="text" placeholder="Name" name="name" id="" />
+            </div>
+            <div>
+              <input type="email" placeholder="Email" name="email" id="" />
+            </div>
+            <div>
+              <textarea
+                name="message"
+                placeholder="Message"
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <div>
+              <button class="btn-submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+        <div class="contact-right">
+
+            <div data-aos="zoom-out">
+            <!-- Contact 1 -->
+          
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M18 0c-3.148 0-6 2.553-6 5.702 0 4.682 4.783 5.177 6 12.298 1.217-7.121 6-7.616 6-12.298 0-3.149-2.852-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm-12-3c-2.099 0-4 1.702-4 3.801 0 3.121 3.188 3.451 4 8.199.812-4.748 4-5.078 4-8.199 0-2.099-1.901-3.801-4-3.801zm0 5.333c-.737 0-1.333-.597-1.333-1.333s.596-1.333 1.333-1.333 1.333.596 1.333 1.333-.596 1.333-1.333 1.333zm6 5.775l-3.215-1.078c.365-.634.777-1.128 1.246-1.687l1.969.657 1.92-.64c.388.521.754 1.093 1.081 1.75l-3.001.998zm12 7.892l-6.707-2.427-5.293 2.427-5.581-2.427-6.419 2.427 3.62-8.144c.299.76.554 1.776.596 3.583l-.443.996 2.699-1.021 4.809 2.091.751-3.725.718 3.675 4.454-2.042 3.099 1.121-.461-1.055c.026-.392.068-.78.131-1.144.144-.84.345-1.564.585-2.212l3.442 7.877z"
+                />
+              </svg>
+            </div>
+            <div class="contact-item-detail">
+              <h4>Address</h4>
+              <p>Malang, Jawa Timur</p>
+            </div>
+          </div>
+
+          <!-- Contact 2 -->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6.02 7.389c.399-.285.85-.417 1.292-.417.944 0 1.852.6 2.15 1.599-.382-.294-.83-.437-1.281-.437-.458 0-.919.147-1.321.434-.799.57-1.153 1.541-.845 2.461-1.242-.89-1.247-2.747.005-3.64zm3.741 12.77c.994.334 4.071 1.186 7.635 3.841l6.604-4.71c-1.713-2.402-1.241-4.082-2.943-6.468-1.162-1.628-1.827-1.654-3.037-1.432l.599.84c.361.507-.405 1.05-.764.544l-.534-.75c-.435-.609-1.279-.229-2.053-.051l.727 1.019c.36.505-.403 1.051-.764.544l-.629-.882c-.446-.626-1.318-.208-2.095-.01l.769 1.078c.363.508-.405 1.049-.764.544l-3.118-4.366c-.968-1.358-3.088.083-2.086 1.489l4.605 6.458c-.494-.183-1.363-.349-1.93-.349-1.754 0-2.429 1.92-.222 2.661zm-3.286-2.159h-4.475v-14h10v6.688l2-.471v-8.217c0-1.104-.895-2-2-2h-10c-1.105 0-2 .896-2 2v18.678c-.001 2.213 3.503 3.322 7.005 3.322 1.812 0 3.619-.299 4.944-.894-2.121-.946-6.378-1.576-5.474-5.106z"
+                />
+              </svg>
+            </div>
+            <div class="contact-item-detail">
+              <h4>Phone</h4>
+              <p>+62 813-5731-6981</p>
+            </div>
+          </div>
+
+          <!-- Contact 3 -->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 9.062s-5.188-.333-7 1.938c2-4.896 7-5.938 7-5.938v-2l5 4-5 4.019v-2.019zm-18.974 14.938h23.947l-11.973-11.607-11.974 11.607zm1.673-14l10.291-7.488 3.053 2.218c.712-.459 1.391-.805 1.953-1.054l-5.006-3.637-11.99 8.725v12.476l7.352-7.127-5.653-4.113zm15.753 4.892l6.548 6.348v-11.612l-6.548 5.264z"
+                />
+              </svg>
+            </div>
+            <div class="contact-item-detail">
+              <h4>Email</h4>
+              <p>jirjisrojulatiq@gmail.com</p>
+            </div>
+          </div>
+        
+        </div>
+
+      </div>
+
+    </section>
+    <!-- End Of Contact -->
+
+          
+
+    <!-- Footer -->
+    <footer>
+      <div class="footers-icon">
+
+        <a href="https://www.instagram.com/rojul.atiqqqq">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"
+            />
+          </svg>
+        </a>
+        <a href="https://twitter.com/Mikumyluvvv">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"
+            />
+          </svg>
+        </a>
+        <a href="https://github.com/Mikumyluvv">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+            />
+          </svg>
+        </a>
+      </div>
+      <p>&#169; 2023 - NASI BABAT</p>
+    </footer>
+    <!-- End Of Footer -->
+
+    
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fa fa-chevron-up scrollup__icon" aria-hidden="true"></i>
+    </a>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://kit.fontawesome.com/e7a0956e0d.js" crossorigin="anonymous"></script>
+    <script>
+        // function scrollup(){
+        //     const scrollup = document.getElementById('scroll-up');
+        //     if(this.scrollY >= 99999) scrollup.classList.add('show-scroll'); else scrollup.classList.remove('show-scroll');
+        // }
+        // window.addEventListener('scroll',scrollup );
+
+        const up = document.querySelector(".scrollup");
+        window.addEventListener("scroll", () => {
+            if(window.pageYOffset > 100){
+                up.classList.add("active");
+            }else{
+                up.classList.remove("active");
+            }
+        });
+    </script>
+    <script>
+        const mainContainer = document.querySelector(".main-container");
+        document.querySelector(".burger").onclick=()=>{
+            mainContainer.classList.toggle("BURGER");
+        };
+
+    </script>
+    <script>
+        window.onbeforeunload = () => {
+            for(const form of document.getElementsByTagName("form")){
+                form.reset();
+            }
+        };
+    </script>
+  </body>
+</html>
